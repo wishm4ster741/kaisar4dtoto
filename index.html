@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Kaisar4DToto adalah platform permainan terkemuka dari Oasis Group / OasisGroup.">
+  <meta name="keywords" content="Kaisar, Oasis, Dynasty permainan seru, bermain online, game, OasisGroup">
+  <meta name="author" content="Kaisar4DToto, OasisGroup">
+  <meta property="og:title" content="Permainan Seru di Kaisar4DToto dari Oasis Group / OasisGroup">
+  <meta property="og:description" content="Bergabunglah dengan kami di Kaisar4DToto, platform permainan online dari OasisGroup, dan mainkan berbagai permainan terbaik dengan pengalaman seru dan hadiah menarik!">
+  <meta property="og:image" content="kaisar_thumbnail.jpg">
+  <meta property="og:url" content="https://kaisar4dtotoHebat.netlify.app">
+  <meta property="og:site_name" content="Kaisar4DToto">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Permainan Seru di Kaisar4DToto dari Oasis Group / OasisGroup">
+  <meta name="twitter:description" content="Nikmati pengalaman permainan online seru hanya di Kaisar4DToto, platform permainan dari Oasis Group / OasisGroup">
+  <meta name="twitter:image" content="kaisar_thumbnail.jpg">
+
+  <title>Daftar Kaisar4DToto | Situs dari Oasis Group</title>
+
+  <link rel="preload" as="image" href="kaisar_thumbnail.jpg">
+  <link rel="canonical" href="https://kaisar4dtotohebat.netlify.app">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+
+  <!-- Schema Markup untuk SEO -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://kaisar4dtotoHebat.netlify.app",
+      "image": "kaisar_thumbnail.jpg",
+      "name": "Kaisar4DToto",
+      "description": "Permainan seru dengan berbagai pilihan game menarik yang bisa kamu mainkan di Kaisar4DToto dari Oasis Group / OasisGroup.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "OasisGroup",
+        "url": "https://kaisar4dtotoHebat.netlify.app"
+      },
+      "mainEntityOfPage": "https://kaisar4dtotoHebat.netlify.app"
+    }
+  </script>
+
+  <!-- Breadcrumb Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Beranda",
+      "item": "https://kaisar4dtotohebat.netlify.app"
+    }]
+  }
+  </script>
+
+  <!-- FAQ Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Bagaimana cara mendaftar di Kaisar4DToto?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Anda bisa mendaftar melalui tombol 'Bergabung bersama kami' di halaman utama."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Apakah transaksi di Kaisar4DToto aman?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ya, semua transaksi dilindungi dengan sistem keamanan terbaru dan didukung oleh Oasis Group."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+      background-color: #1c1c1c; /* Background hitam untuk kesan lebih mewah */
+      color: #f1f1f1; /* Teks putih terang */
+      text-align: center;
+      overflow-x: hidden;
+      scroll-behavior: smooth; /* Smooth scroll for navigation */
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url('kaisar_thumbnail.jpg') no-repeat center center/cover;
+      color: white;
+      padding: 120px 20px;
+      width: 100%;
+      position: relative;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: background 1s ease-in-out;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.75); /* Overlay lebih gelap */
+      z-index: 1;
+    }
+
+    .hero h1 {
+      font-size: 3.5rem;
+      z-index: 2;
+      margin-bottom: 20px;
+      opacity: 0; /* Mulai dengan opacity 0 */
+      transition: opacity 1s ease-in-out; /* Transisi opacity */
+    }
+
+    .hero p {
+      font-size: 1.5rem;
+      z-index: 2;
+      margin-bottom: 20px;
+      opacity: 0; /* Mulai dengan opacity 0 */
+      transition: opacity 1s ease-in-out; /* Transisi opacity */
+    }
+
+    .hero-image-container {
+      width: 300px; /* Menentukan lebar kontainer */
+      height: 200px; /* Menentukan tinggi kontainer */
+      border-radius: 15px; /* Membuat sudut rounded */
+      overflow: hidden; /* Menyembunyikan bagian gambar yang keluar dari kontainer */
+      margin-bottom: 20px; /* Memberikan jarak antara gambar dan teks */
+      display: flex;
+      justify-content: center; /* Menyelaraskan gambar di tengah kontainer */
+      align-items: center;
+      z-index: 2;
+    }
+
+    .hero-image {
+      width: 100%; /* Membuat gambar memenuhi lebar kontainer */
+      height: 100%; /* Membuat gambar memenuhi tinggi kontainer */
+      object-fit: cover; /* Memastikan gambar terpotong proporsional jika ukuran berbeda */
+    }
+
+    .cta-btn {
+      background-color: #d4af37; /* Emas mewah untuk tombol CTA */
+      color: white;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 20px;
+      z-index: 2;
+      position: relative;
+      transition: all 0.3s ease;
+    }
+
+    .cta-btn:hover {
+      background-color: #b8860b; /* Warna emas lebih gelap saat hover */
+      transform: scale(1.05);
+    }
+
+    /* Section lainnya */
+    .features, .promotions, .about {
+      width: 80%;
+      max-width: 1200px;
+      margin: 0px 0;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #d4af37; /* Emas untuk judul */
+    }
+
+    .feature {
+      margin: 20px 0;
+    }
+
+    .feature h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      color: #d4af37; /* Emas untuk sub-judul */
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      width: 100%;
+    }
+
+    footer a {
+      color: #d4af37;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer a:hover {
+      color: #b8860b;
+    }
+
+    .fadeIn {
+      opacity: 1 !important;
+      transition: opacity 1s ease-in-out;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        padding: 80px 20px;
+      }
+
+      .cta-btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+      }
+    }
+
+    .sticky-cta {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: #d4af37;
+      text-align: center;
+      padding: 12px 0;
+      z-index: 9999;
+    }
+    .sticky-cta a {
+      color: #fff;
+      font-weight: bold;
+      font-size: 1.1rem;
+      text-decoration: none;
+    }
+    .telegram-float, .whatsapp-float {
+      position: fixed;
+      right: 20px;
+      border-radius: 50%;
+      padding: 5px;
+      background-color: transparent;
+    }
+    .telegram-float {
+      bottom: 80px;
+    }
+    .whatsapp-float {
+      bottom: 140px;
+    }
+
+    a.warnalink:link {
+      color: #d4af37; /* Warna link normal */
+    }
+
+    a.warnalink:visited {
+      color: #d4af37; /* Warna setelah diklik (visited) */
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Konten Halaman -->
+  <section class="hero" data-bg="kaisar_thumbnail.jpg">
+    <h1>Selamat Datang di Kaisar4DToto</h1>
+    <p>Permainan online terbaik dari Oasis Group dengan hadiah menarik!</p>
+
+    <div class="hero-image-container">
+      <img src="kaisar_thumbnail.jpg" alt="Logo Kaisar4DToto - Situs Oasis Group" class="hero-image">
+    </div>
+    
+    <a href="https://kaisar4dtotopaten.com/new/register?reff=Kaisar4DMas" class="cta-btn" target="_blank" rel="nofollow noopener noreferrer">Daftar Kaisar4DToto</a>
+  </section>
+
+  <section class="features">
+    <h2>Fitur Unggulan Kaisar4DToto</h2>
+    <div class="feature">
+      <h3>Beragam Permainan Menarik di Kaisar4DToto</h3>
+      <p>Pilih dari berbagai permainan seru, Kaisar4DToto merupakan salah satu situs dari Oasis Group / OasisGroup</p>
+    </div>
+    <div class="feature">
+      <h3>Keamanan bermain di Kaisar4DToto Terjamin</h3>
+      <p>Sistem keamanan canggih untuk melindungi data pribadi dan transaksi Anda.</p>
+    </div>
+    <div class="feature">
+      <h3>Kenapa memilih Kaisar4dToto ?</h3>
+      <p>Kaisar4DToto adalah platform terpercaya dari Oasis Group / OasisGroup, 
+          menawarkan pengalaman permainan terbaik dengan sistem fair play dan bonus menarik.</p>
+      <p>Sudah jadi member di Kaisar4dToto? <a class="warnalink" href="https://kaisar4dtotomenang.com/" target="_blank" rel="nofollow noopener noreferrer">Login Kaisar4dToto Sekarang!</a></p>
+
+    </div>
+  </section>
+
+  <section class="promotions">
+    <h2>Promosi dan Bonus Terbaru Kaisar4DToto</h2>
+    <div class="promotion">
+      <h3>Bonus Deposit</h3>
+      <p style="margin-bottom: 20px;">
+          <a href="https://kaisar4dtotopaten.com/new/register?reff=Kaisar4DMas" class="warnalink" target="_blank" rel="nofollow noopener noreferrer">
+            Daftar sekarang di Kaisar4dToto</a> dan dapatkan bonus hingga 10% untuk setiap deposit Anda!</p>
+      <h3>Bonus TO</h3>
+      <p style="margin-bottom: 20px;">Bonus Harian hingga 1%</p>
+      <h3>Bonus Cashback</h3>
+      <p style="margin-bottom: 20px;">Bonus Mingguan hingga 20%</p>
+    </div>
+  </section>
+
+  <section class="about">
+    <h2>Tentang Kaisar4DToto</h2>
+    <p>Kaisar4DToto adalah platform permainan yang menyediakan berbagai game menarik dari Oasis Group / OasisGroup. Kami berkomitmen untuk memberikan pengalaman bermain yang seru dan aman kepada setiap pemain. Bergabunglah dengan kami dan menangkan hadiah menarik!</p>    
+    <div class="feature">
+      <h3>Cara Daftar Kaisar4dToto</h3>
+      <a href="https://kaisar4dtotopaten.com/new/register?reff=Kaisar4DMas" class="cta-btn" target="_blank" rel="nofollow noopener noreferrer">Daftar Kaisar4DToto</a>
+    </div>  
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kaisar4DToto, OasisGroup, Oasis Group. All rights reserved.</p>
+     <p>Hanya untuk usia 18 tahun ke atas. Bermainlah dengan bijak.</p>
+  </footer>
+
+  <!-- Sticky CTA -->
+  <div class="sticky-cta" id="stickyCta">
+    <a href="https://kaisar4dtotopaten.com/new/register?reff=Kaisar4DMas" target="_blank" rel="nofollow noopener noreferrer">
+      <img src="favicon.ico" alt="Logo Kaisar4DToto - Situs Terpercaya dari OasisGroup" style="width:24px; height:24px; margin-right:6px; border-radius:4px;" />
+      Daftar Kaisar4dToto Sekarang
+    </a>
+  </div>
+
+  <!-- Floating Chat Buttons -->
+  <a href="https://wa.me/6282177633721?text=Halo%20Kaisar4DToto%2C%20saya%20ingin%20bertanya" target="_blank" class="whatsapp-float">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp OasisTogel" width="48" height="48" />
+  </a>
+  <a href="https://t.me/kaisar4dtoto" target="_blank" class="telegram-float">
+    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram Kaisar4DToto" width="48" height="48" />
+  </a>
+
+  <!-- Sticky CTA Hide on Scroll -->
+  <script>
+    let lastScrollTop = 0;
+    const cta = document.getElementById("stickyCta");
+
+    window.addEventListener("scroll", function () {
+      let st = window.pageYOffset || document.documentElement.scrollTop;
+      if (st > lastScrollTop) {
+        cta.style.transform = "translateY(100%)";
+      } else {
+        cta.style.transform = "translateY(0)";
+      }
+      lastScrollTop = st <= 0 ? 0 : st;
+    }, false);
+  </script>
+
+
+  <script>
+    // Menambahkan Transisi FadeIn untuk Teks Hero
+    window.addEventListener('DOMContentLoaded', (event) => {
+      document.querySelector('.hero h1').classList.add('fadeIn');
+      document.querySelector('.hero p').classList.add('fadeIn');
+    });
+
+    // Lazy loading gambar latar belakang hero
+    window.addEventListener('scroll', () => {
+      const hero = document.querySelector('.hero');
+      if (hero.getBoundingClientRect().top < window.innerHeight) {
+        const bgImage = hero.getAttribute('data-bg');
+        hero.style.backgroundImage = `url('${bgImage}')`;
+      }
+    });
+  </script>
+</body>
+
+</html>
